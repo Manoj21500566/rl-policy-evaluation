@@ -6,10 +6,11 @@ To develop a Python program to evaluate the given policy.
 ## PROBLEM STATEMENT
 The bandit slippery walk problem is a reinforcement learning problem in which an agent must learn to navigate a 7-state environment in order to reach a goal state. The environment is slippery, so the agent has a chance of moving in the opposite direction of the action it takes.
 
-States
+### States
 The environment has 7 states:
 
 Two Terminal States: G: The goal state & H: A hole state.
+
 Five Transition states / Non-terminal States including S: The starting state.
 ### Action:
 The agent can take two actions:
@@ -41,6 +42,10 @@ The agent receives a reward of +1 for reaching the goal state (G). The agent rec
 
 ### program:
 ~~~
+
+Manoj M
+212221240027
+
 def policy_evaluation(pi, P, gamma=1.0, theta=1e-10):
    	'''Initialize 1st Iteration estimates of state-value function(V) to zero'''
     prev_V = np.zeros(len(P), dtype=np.float64)
@@ -70,11 +75,22 @@ def policy_evaluation(pi, P, gamma=1.0, theta=1e-10):
 
 ### Policy 1
 
-![o1](https://github.com/Manoj21500566/rl-policy-evaluation/assets/94588708/c691fe0c-4a66-4a72-94e2-ac316bd81479)
+![o11](https://github.com/Manoj21500566/rl-policy-evaluation/assets/94588708/ebd7763a-4b7f-4f6d-a7f6-137eaf8f5c9d)
+
+![o12](https://github.com/Manoj21500566/rl-policy-evaluation/assets/94588708/a2d66c36-fc5f-402e-b2a0-c8631f0147fe)
+
+![o13](https://github.com/Manoj21500566/rl-policy-evaluation/assets/94588708/64ca2ff7-9f9a-40fd-bf24-0e4949fdab61)
+
 
 ### Policy 2
 
-![o2](https://github.com/Manoj21500566/rl-policy-evaluation/assets/94588708/c87df80b-ed79-495c-bfd6-ca572109dfb2)
+![o21](https://github.com/Manoj21500566/rl-policy-evaluation/assets/94588708/c8a361fd-9068-4000-9411-6b1a6f685c19)
+
+![o23](https://github.com/Manoj21500566/rl-policy-evaluation/assets/94588708/29634d64-a6d5-47e8-989c-0a0fbab4a671)
+
+![o22](https://github.com/Manoj21500566/rl-policy-evaluation/assets/94588708/cd9bf230-0a88-4459-acda-acd9c8104428)
+
+
 
 ### Comparison
 
