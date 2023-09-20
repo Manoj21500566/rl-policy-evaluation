@@ -9,13 +9,14 @@ The bandit slippery walk problem is a reinforcement learning problem in which an
 ### States
 The environment has 7 states:
 
-Two Terminal States: G: The goal state & H: A hole state.
+1)Two Terminal States: G: The goal state & H: A hole state.
 
-Five Transition states / Non-terminal States including S: The starting state.
+2)Five Transition states / Non-terminal States including S: The starting state.
 ### Action:
 The agent can take two actions:
 
 R: Move right.
+
 L: Move left.
 ### Transition Probabilities
 The transition probabilities for each action are as follows:
